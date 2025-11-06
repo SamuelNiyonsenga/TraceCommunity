@@ -1,0 +1,31 @@
+TraceCommunity — 1-Page Submission Summary
+
+Title: TraceCommunity — Community Supply Chain Provenance
+
+Problem:
+Small cooperatives and community producers lack low-cost, trustworthy provenance for agricultural products (milk, coffee, vegetables, honey and mixed agribusiness). This reduces market trust and value and leads to disputes and lost income.
+
+Solution:
+TraceCommunity is a lightweight blockchain prototype that records immutable batch metadata and checkpoints (collection, transport, inspection) with off-chain evidence linked via IPFS. It's designed for community cooperatives with role-based permissions, QR verification for markets, and a simple web UI for easy verification by consumers and regulators.
+
+Key features:
+- Batch creation by producers with IPFS-backed evidence.
+- Role-based checkpoints (transporters, inspectors) adding immutable events.
+- Public verification page + QR code for consumers and regulators.
+- Minimal on-chain footprint; heavy files stored off-chain for cost-effectiveness.
+- Designed for low-cost consortium deployment or L2 for scalability.
+
+Tech stack (prototype):
+- Smart contracts: Solidity (OpenZeppelin AccessControl)
+- Local blockchain: Hardhat (demo), deployable to EVM-compatible networks
+- Frontend: React + ethers.js, MetaMask integration
+- Off-chain storage: IPFS (or simple file server for demo)
+
+Impact:
+Increases trust and price transparency for community products, reduces disputes, empowers local cooperatives to certify origin and quality, and gives consumers an easy verification tool via QR codes.
+
+Demo readiness:
+Smart contract, deploy & seed scripts, React demo UI and sample data ready. We can demonstrate live on a laptop via Hardhat node with seeded accounts and MetaMask.
+
+Contact:
+Samuel Niyonsenga
